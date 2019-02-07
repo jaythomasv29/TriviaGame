@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 body{
+    background-image: url("https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     font-family: 'Asap', serif;
     width: 60%;
     margin-left:auto;
@@ -15,4 +16,23 @@ body{
     font-family: 'Asap', serif;
     font-size: 20px;
     padding:20px;
+}
+
+.jumbotron {
+    box-shadow: 5px 10px #888888;
+    margin: 100px;
+    opacity: 0.88;
+}
+
+#quizContainer {
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+label {
+    border:1px solid grey;
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: 1px 2px #888888;
 }
